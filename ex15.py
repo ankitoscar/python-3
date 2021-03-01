@@ -10,6 +10,7 @@ txt = open(filename)
 # Printing post import message
 print(f"Here's your file {filename}.")
 print(txt.read())
+txt.close()
 
 # Opening the same file again, for no reason
 # Prompt
@@ -20,3 +21,5 @@ file_again = input(">")
 txt_again = open(file_again) # Maybe used for opening file without passing as argument
 
 print(txt_again.read())
+
+txt_again.close()
