@@ -1,0 +1,26 @@
+# Program for creating a class
+class Song(object):
+
+    # Constructor
+    def __init__(self, lyrics):
+        self.lyrics = lyrics
+
+    # function for singing a song
+    def sing_me_a_song(self):
+        for line in self.lyrics:
+            print(line)
+
+# happy birthday song
+happy_bday = Song(["Happy birthday to you",
+                   "I don't want to get sued",
+                   "So I'll stop right there"])
+
+# another song
+bulls_on_parade = Song(["They rally around the family",
+                        "With pockets full of shells"])
+
+# singing happy_bday song
+happy_bday.sing_me_a_song()
+
+# singing another
+bulls_on_parade.sing_me_a_song()
