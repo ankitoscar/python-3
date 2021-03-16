@@ -16,4 +16,4 @@ class Room(object):
         """
         Function for updating paths
         """
-        self.paths.update.(paths)
+        self.paths.update(paths)
