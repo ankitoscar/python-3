@@ -1,6 +1,6 @@
 # importing from nose module
 from nose.tools import * # importing all members
-from ex47.game import Room 
+from game import Room 
 
 # Making testing functions
 def test_room():
